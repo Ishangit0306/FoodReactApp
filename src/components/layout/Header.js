@@ -7,7 +7,7 @@ import { Fragment } from 'react';
    return <Fragment>
         <header className={classes.header}>
             <h1>ReactMeals</h1>
-            <HeaderCartButton></HeaderCartButton> 
+            <HeaderCartButton onClick={props.onShowCart}/> 
         </header>
         <div className={classes.mainimage} >
             <img src={mealimg} alt='meals'/>
